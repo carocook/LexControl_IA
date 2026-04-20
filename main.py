@@ -77,7 +77,7 @@ Analizá el siguiente evento y respondé en formato estructurado:
 Evento: {evento}
 """
 
-                # 🔥 MODELOS A PROBAR (fallback)
+                # 🔥 MODELOS A PROBAR 
                 modelos = [
                     "models/gemini-2.5-flash",
                     "models/gemini-2.5-pro",
