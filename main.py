@@ -87,9 +87,22 @@ Evento: {evento}
                     "models/gemini-2.5-flash",
                     "models/gemini-2.5-pro",
                     "models/gemini-2.0-flash"
+                    "models/gemini-2.0-flash-001"
+                    "models/gemini-2.0-flash-lite-001"
+                    "models/gemini-2.0-flash-lite"
+                    "models/gemma-3-1b-it"
+                    "models/gemma-3-4b-it"
                     "models/gemma-3-12b-it"
+                    "models/gemma-3-27b-it"
+                    "models/gemma-3n-e4b-it"
                     "models/gemma-3n-e2b-it"
+                    "models/gemma-4-26b-a4b-it"
+                    "models/gemma-4-31b-it"
                     "models/gemini-flash-lite-latest"
+                    "models/gemini-flash-latest"
+                    "models/gemini-flash-lite-latest"
+                    "models/gemini-pro-latest"
+                    "models/gemini-2.5-flash-lite"
                 ]
 
                 resultado = None
