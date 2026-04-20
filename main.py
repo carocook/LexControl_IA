@@ -7,9 +7,14 @@ import time
 load_dotenv()
 
 # ==============================
-# CONFIGURACIÓN DE LA API
+# CONFIGURACIÓN DE LA API LOCAL Y EN LA NUBE
 # ==============================
-client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
+try:
+    api_key = st.secrets["GEMINI_API_KEY"]
+except Exception:
+    api_key = os.getenv("GEMINI_API_KEY")
+
+client = genai.Client(api_key=api_key)
 
 # ==============================
 # CONFIGURACIÓN DE LA PÁGINA
