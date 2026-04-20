@@ -9,7 +9,7 @@ load_dotenv()
 # ==============================
 # CONFIGURACIÓN DE LA API
 # ==============================
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
 
 # ==============================
 # CONFIGURACIÓN DE LA PÁGINA
